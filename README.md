@@ -90,6 +90,7 @@ cd mirrorbot
 For Debian based distros
 ```
 sudo apt install python3
+sudo apt install python
 ```
 Install Docker by following the [official Docker docs](https://docs.docker.com/engine/install/debian/)
 
@@ -104,6 +105,7 @@ sudo pacman -S docker python
 - Install dependencies for running setup scripts:
 ```
 pip3 install -r requirements-cli.txt
+pip install -r requirements-cli.txt    
 ```
 ## Generate Database
 <details>
